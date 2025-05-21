@@ -1,0 +1,12 @@
+streamlit
+requests
+PyPDF2
+pandas
+pytesseract
+pillow
+pydantic
+chromadb
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters

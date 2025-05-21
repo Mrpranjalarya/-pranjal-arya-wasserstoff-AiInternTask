@@ -1,0 +1,54 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# ChromaDB vector store
+chroma_store/
+chroma_store/*
+
+# Alembic migration cache
+alembic/versions/*.pyc
+
+# Streamlit cache
+.streamlit/
+
+# Docker logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Uploaded files (if any)
+uploads/
