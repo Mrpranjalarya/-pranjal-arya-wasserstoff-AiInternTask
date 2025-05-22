@@ -76,9 +76,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Backend URL
-# BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
-BACKEND_URL = os.getenv("BACKEND_URL", "https://pranjal-arya-wasserstoff-aiinterntask.onrender.com")
+#BACKEND_URL = os.getenv("BACKEND_URL", "https://pranjal-arya-wasserstoff-aiinterntask.onrender.com")
 
 
 # Initialize session state
