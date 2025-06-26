@@ -1,4 +1,14 @@
-# 📚 Document Chatbot
+# 📚 Real-Time RAG-Based Documents, Research and Thematic Analysis-chatbot-
+
+Real-Time RAG-Based Document Research and Thematic Analysis Chatbot
+This project implements a real-time chatbot powered by Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to perform intelligent document research across large datasets. It enables users to:
+Upload and process multiple document types (PDF, DOCX, Images)
+Perform semantic search across document content
+Identify key themes and group related information
+Generate detailed, cited responses to natural language queries
+Explore insights interactively via a modern chat interface
+
+
 
 A full-stack AI-powered chatbot that lets you upload documents (PDF, DOCX, images), extracts their content, stores embeddings, and allows you to ask questions about them using a Streamlit frontend and a FastAPI backend.
 

@@ -107,10 +107,10 @@ with st.sidebar:
         st.markdown(f"📄 {doc}")
     st.markdown("---")
     st.markdown("### Info")
-    st.info("Gen-AI Internship Task — Document Chatbot")
+    st.info(" ")
 
 # Header
-st.markdown("## 📚 Document Upload and Q&A Chatbot")
+st.markdown("## 📚 Real-Time RAG-Based Documents, Research and Thematic Analysis-chatbot")
 
 # Document Upload Section
 st.subheader("Step 1: Upload Documents")
