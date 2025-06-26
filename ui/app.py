@@ -91,18 +91,16 @@ init_state("recent_docs", [])
 
 # Sidebar
 with st.sidebar:
-    st.image("https://cdn-icons-png.flaticon.com/512/4712/4712027.png", width=100)
+    st.image("https://cdn-icons-png.flaticon.com/512/4712/4712027.png", width=80)
     st.markdown("### Options")
-    
+
     if st.button("Clear Chat"):
-        for key in list(st.session_state.keys()):
-            del st.session_state[key]
-        st.success("Session cleared. Ready for fresh upload.")
-        try:
-            st.experimental_rerun()
-        except AttributeError:
-            st.info("Please refresh the page to start a new session.")
-    
+        # Clear only relevant session keys
+        st.session_state.pop("chat_history", None)
+        st.session_state.pop("recent_docs", None)
+        st.success("Session cleared. Reloading...")
+        st.experimental_rerun()  # Clean and reliable rerun
+
     st.markdown("---")
     st.markdown("### Recent Activity")
     for doc in st.session_state.recent_docs[-5:][::-1]:
